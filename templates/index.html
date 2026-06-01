@@ -31,7 +31,19 @@
 
         {% for task in tasks %}
 
-        <li>{{ task }}</li>
+        <li class="{% if task.done %}done{% endif %}">
+
+            {{ task.text }}
+
+            <a href="/toggle/{{ loop.index0 }}" class="btn {% if task.done %}btn-done{% endif %}">
+                {% if task.done %}
+                ✕
+                {% else %}
+                ✔
+                {% endif %}
+            </a>
+
+        </li>
 
         {% endfor %}
 

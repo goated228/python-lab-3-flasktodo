@@ -33,3 +33,17 @@ button {
 li {
     margin-top: 10px;
 }
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+li a {
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+.btn {
+    display: inline-block;
+}
