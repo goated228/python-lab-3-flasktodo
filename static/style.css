@@ -46,4 +46,22 @@ li a {
 
 .btn {
     display: inline-block;
+    padding: 4px 8px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-done {
+    display: inline-block;
+    padding: 4px 8px;
+    background-color: darkgrey;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    opacity: 0.9;
 }
