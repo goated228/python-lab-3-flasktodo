@@ -66,6 +66,15 @@ li a {
     opacity: 0.9;
 }
 
-.dbtn {
+.delbtn {
     display: inline-block;
+    padding: 7px 8px 4px 8px;
+    background-color: firebrick;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.delbtn:hover{
+    opacity: 0.9;
 }
